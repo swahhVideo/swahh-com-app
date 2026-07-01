@@ -9,7 +9,7 @@
 ## Aktueller externer Stand
 - **IDrive e2 Region:** `us-west-2`, Endpoint `s3.us-west-2.idrivee2.com`.
 - **IDrive e2 Buckets:** `swahh-media` und `swahh-private`.
-- **IDrive e2 Access Key:** `swahh-control-server` wurde erstellt. Der Secret Key wird nicht in diesem Repository gespeichert.
+- **IDrive e2 Access Key:** `swahh-runtime-20260701` wurde erstellt. Der Secret Key wird nicht in diesem Repository gespeichert.
 - **Spaceship DNS:** `cdn.swahh.com` und `uploads.swahh.com` sind CNAMEs auf `s3.us-west-2.idrivee2.com`.
 - **Salad:** Organisation `swahhvideo`, Projekt `default`. Container-Gruppe `swahh-transcoder` ist als Zielname vorbereitet, braucht aber noch ein konkretes Container-Image.
 
