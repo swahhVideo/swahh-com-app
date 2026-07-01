@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#05070d">
+    <meta
+      name="description"
+      content="SWAHH ist ein kostenoptimiertes Videoportal mit IDrive e2 Speicher, kleinem Control Server und stateless Salad Compute."
+    >
+    <title>SWAHH</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar" aria-label="Hauptnavigation">
+      <a class="brand" href="/" aria-label="SWAHH Startseite">
+        <span class="brand-mark">S</span>
+        <span>SWAHH</span>
+      </a>
+      <nav class="nav-links" aria-label="Bereiche">
+        <a href="#watch">Watch</a>
+        <a href="#upload">Upload</a>
+        <a href="#ai">AI</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <div class="poster poster-main"></div>
+          <div class="poster poster-side"></div>
+          <div class="poster poster-low"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Local Preview</p>
+          <h1 id="hero-title">SWAHH</h1>
+          <p class="summary">
+            Mobile-first Videoportal mit direktem IDrive-e2-Speicher, kleinem Control Server und stateless Salad Workern.
+          </p>
+          <div class="actions">
+            <a class="primary-action" href="#watch">Vorschau ansehen</a>
+            <a class="secondary-action" href="#system">Systemstatus</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="watch" class="content-section" aria-labelledby="watch-title">
+        <div class="section-heading">
+          <p class="eyebrow">Video Experience</p>
+          <h2 id="watch-title">Startansicht</h2>
+        </div>
+        <div class="rail" aria-label="Beispielvideos">
+          <article class="video-card ocean">
+            <span>Original</span>
+            <h3>Global Originals</h3>
+          </article>
+          <article class="video-card city">
+            <span>Live</span>
+            <h3>Live Streams</h3>
+          </article>
+          <article class="video-card pulse">
+            <span>Shorts</span>
+            <h3>Fast Clips</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="system" class="status-grid" aria-label="Architekturstatus">
+        <article>
+          <span class="status-dot ready"></span>
+          <h2>Control Server</h2>
+          <p>Health-Check lokal vorhanden. Naechste Schritte: Auth, API und Metadaten.</p>
+        </article>
+        <article>
+          <span class="status-dot planned"></span>
+          <h2>IDrive e2</h2>
+          <p>Ziel fuer Videos, Uploads, Releases, Backups, Logs, Modelle und Artefakte.</p>
+        </article>
+        <article>
+          <span class="status-dot planned"></span>
+          <h2>Salad Compute</h2>
+          <p>Geplant fuer stateless Transcoding, KI, RAG, Tests und Worker-Jobs.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
